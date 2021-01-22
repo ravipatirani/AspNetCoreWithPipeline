@@ -33,7 +33,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: '<REPLACE_AZURE_SUBSCRIPTION_NAME_(ID)>'
+    azureSubscription: 'd8c25100-6690-4a7b-82da-8ace093230a6>'
     appType: 'webApp'
     WebAppName: 'WebProjectForPipelines'
     packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
